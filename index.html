@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honkai Star Rail</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            overflow: hidden; 
+        }
+        .container {
+            position: relative;
+            text-align: center;
+            width: 100vw;
+            height: 100vh; 
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        h1 {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Honkai Star Rail</h1>
+        <img src="HonkaiMap.png" alt="Maps" usemap="#honkaimap">
+        <map name="honkaimap">
+            <area shape="circle" coords="588,500,97" href="SpaceStation.htm" alt="spaceStation">
+            <area shape="circle" coords="993,323,81" href="Jarilo.htm" alt="Jarilo-VI">
+            <area shape="circle" coords="1307,694,81" href="XianzhouLuofu.htm" alt="XianzhouLoufu">
+        </map>
+    </div>
+</body>
+</html>
